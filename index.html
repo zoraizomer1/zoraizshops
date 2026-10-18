@@ -1,0 +1,189 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Local Business</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8f4;
+            color: #333;
+            background-image: url("https://i.pinimg.com/736x/2d/95/e5/2d95e5886fc4c65a6778b5fee94a7d59.jpg");
+        }
+
+        header {
+            background-color: #b8b12a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #987529;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 16px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background-color: #dff3e4;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+            color: #92a638;
+            
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #86232d;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .services {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: rgb(190, 212, 91);
+            padding: 25px;
+            width: 220px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        .card h3 {
+            color: #23864b;
+            margin-bottom: 10px;
+        }
+
+        .about {
+            background-color: #87b630;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .about p { 
+            max-width: 600px;
+            margin: 15px auto 0;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #176638;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .hero h2 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> ZORAIZ SHOPS</h1>
+        <p>Your Trusted Local Shop</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Our Shop</h2>
+        <p>Quality products and friendly service at affordable prices.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Quality Products</h3>
+                <p>We provide good-quality products for our customers.</p>
+            </div>
+
+            <div class="card">
+                <h3>Affordable Prices</h3>
+                <p>Get useful products at reasonable prices.</p>
+            </div>
+
+            <div class="card">
+                <h3>Customer Support</h3>
+                <p>We are always ready to help our customers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+            We are a local business dedicated to providing
+            quality products, affordable prices, and excellent
+            customer service to our community.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: zoraizumer1@gmail.com</p>
+        <p>Phone: 0324-5776590</p>
+    
+    </footer>
+
+</body>
+</html>
